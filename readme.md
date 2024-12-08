@@ -27,3 +27,20 @@ This project demonstrates a simple React application with Sign Up and Login form
 
     ```
     npm run dev
+
+## Design Choices
+
+- Used formik and yup for form handling.
+- Used tailwind CSS for styling.
+
+## Assumptions
+
+- Users will input valid email formats (e.g., example@example.com).
+- A minimum password length of 8 is sufficient for validation.
+
+## Limitations
+
+- This project does not include actual authentication logic (e.g., connecting to a backend API).
+- Local storage is used to simulate "Remember Me" functionality without encryption.
+- The password strength indicator is a basic implementation and may not cover all edge cases.
+
