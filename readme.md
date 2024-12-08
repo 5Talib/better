@@ -25,4 +25,5 @@ This project demonstrates a simple React application with Sign Up and Login form
 
 2. **Run the project**:
 
-    ```npm run dev
+    ```
+    npm run dev
